@@ -1,0 +1,5 @@
+* commands
+- nmp init
+- npm install tailwindcss postcss-cli autoprefixer
+- npx tailwind init
+- npm run build
