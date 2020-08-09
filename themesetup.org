@@ -1,5 +1,13 @@
 * commands
+** tailwind
 - nmp init
 - npm install tailwindcss postcss-cli autoprefixer
 - npx tailwind init
 - npm run build
+** pelican
+- pelican content (to generate the content) `pelican content -t theme_location` to generate with supplied theme.
+- python -m pelican.server or run python live_reload.py in the top level dir
+* development
+** new theme is called basic, it's localed in themes/basic
+** activate the virtualenv with pipenv shell
+** naviate to the themes dir and run `npm run build` to build the theme
