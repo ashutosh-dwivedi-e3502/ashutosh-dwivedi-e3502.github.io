@@ -1,0 +1,185 @@
+html, body {
+    margin: 0;
+    font-family: 'Avenir Next',
+		 'HelveticaNeue-Light',
+		 'Helvetica Neue',
+		 Helvetica, Arial, sans-serif;
+}	     
+
+
+header, main, footer {
+    box-sizing: border-box;
+}
+
+
+header {
+    color: #262E2E;
+    width: 640px;
+    padding: 10px;
+    margin: auto;
+}
+
+
+.sitename {
+    color: #000;
+    font-size: 64px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+nav {
+    font-size: 16px;
+}
+nav a {
+    color: #999;
+    text-decoration: none;
+    border-bottom: 1px solid #999;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 20px 0 0;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 46px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin: 40px 0 0 0;
+}
+
+blockquote {
+    margin: 40px 0;
+    padding-left: 40px;
+    border-left: 4px solid #eee;
+    font-style: italic;
+}
+
+code {
+    border: 1px solid #eee;
+    padding: 0 4px;
+    font-size: 16px
+}
+
+.highlight {
+    width: 840px;
+    margin-left: -110px;
+}
+
+pre {
+    background: #fafafa;
+    border: 1px solid #eee;
+    font-size: 13px;
+    line-height: 1.4em;
+    padding: 10px;
+    overflow-x: scroll;
+    margin: 40px 0;
+}
+
+
+.centered {
+    text-align: center;
+}
+
+
+.bottom-none {
+    margin-bottom: 0;
+}
+.bottom-small {
+    margin-bottom: 5px;
+}
+.bottom-big {
+    margin-bottom: 50px;
+}
+
+
+article img {
+    width: 840px;
+    margin: auto;
+    margin-left: -110px;
+}
+.article-body {
+    margin-top: 40px;
+}
+.article-end {
+    font-size: 48px;
+    margin: 50px 0;
+}
+
+
+time {
+    color: #888;
+    font-size: 0.8em;
+}
+
+
+main {
+    padding: 10px;
+    width: 640px;
+    margin: auto;
+    line-height: 1.7em;
+    font-size: 20px;
+}
+main p {
+    margin-bottom: 40px;
+}
+main a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #888;
+}
+
+
+footer {
+    color: #999;
+    width: 640px;
+    margin: auto;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+footer a {
+    color: #999;
+    text-decoration: none;
+    border-bottom: 1px solid #999;
+}
+
+
+/* Responsive Stuff */
+@media only screen and (max-width: 640px) {
+    header,
+    main,
+    footer {
+	width: 100%;
+    }
+
+    h1 {
+	font-size: 24px;
+    }
+
+    pre {
+	font-size: 11px;
+    }
+    
+    main {
+	padding: 10px 15px;
+	font-size: 18px;
+    }
+
+    header {
+	padding: 0 15px;
+    }
+}
+@media only screen and (max-width: 840px) {
+    article img,
+    .highlight {
+        width: 100%;
+        margin-left: 0;
+    }
+}

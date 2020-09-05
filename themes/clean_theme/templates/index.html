@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}About - {{ SITENAME }}{% endblock %}
+{% block content %}
+
+<h1 class="bottom-big">About</h1>
+<p>Likes to tinker with softwares, loves learning and occasionally writes about it. Spends time lurking on HN and reddit.
+</p>
+
+<ul>
+  {% for name, link in SOCIAL %}
+  <li><a href="{{ link}}"> {{ name }}</a></li>
+  {% endfor %}
+</ul>
+
+{% endblock %}

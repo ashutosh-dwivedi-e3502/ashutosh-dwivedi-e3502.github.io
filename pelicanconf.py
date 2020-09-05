@@ -12,7 +12,7 @@ TIMEZONE = 'Asia/Calcutta'
 
 DEFAULT_LANG = 'en'
 
-THEME = 'themes/niltheme'
+THEME = 'themes/clean_theme'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
