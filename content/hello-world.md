@@ -1,8 +1,6 @@
 title: Hello World!
-date: 9/07/2020
+date: 9/05/2020
 author: Ashutosh
-
-# Hello world
 
 Hello world! 
 Again!
